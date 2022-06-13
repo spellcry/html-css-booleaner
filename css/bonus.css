@@ -31,9 +31,45 @@ body {
     padding: 40px;
 }
 
+/* Header */
+.article__header {
+    padding: 40px;
+}
+
 /* Footer */
 footer {
+    padding: 40px;
     text-align: center;
     background-color: #58355E;
     color: #fff;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.footer__monitor,
+.footer__grafico {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    padding-top: 205px;
+    margin-inline: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer__monitor {
+    background-image: url(../img/monitor.jpg);
+    margin-right: 20px;
+}
+
+.footer__grafico {
+    background-image: url(../img/graph.jpg);
 }
