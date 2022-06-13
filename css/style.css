@@ -1,6 +1,8 @@
 /* General & body*/
 * {
     box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
@@ -11,6 +13,10 @@ body {
 /* Utility */
 .span-yellow-bg {
     background-color: #ffff00;
+}
+
+.bg-lightblue {
+    background-color: #B1E5F2;
 }
 
 /* Header */
@@ -25,4 +31,66 @@ body {
     width: 200px;
     padding-top: 40px;
     padding-left: 5px;
+}
+
+/* Article Header */
+.article {
+    margin-left: 5px;
+}
+
+.article__header__title {
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.article__header__author,
+.article__header__date {
+    color: #999;
+}
+
+.article__header__author {
+    font-size: 16px;
+}
+
+.article__header__author span {
+    color: #20A9E5;
+}
+
+.article__header__date {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+/* Article Body */
+.img-description {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.article__body ul {
+    margin-block: 20px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead tr {
+    background-color: #20A9E5;
+}
+
+td,
+th {
+    width: 24%;
+}
+
+th {
+    text-align: left;
+    color: #fff;
+}
+
+.column3 {
+    width: 52%;
 }
