@@ -1,0 +1,10 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+#main-header {
+    background-color: lightskyblue;
+    background-image: url(../img/pattern.png);
+}
