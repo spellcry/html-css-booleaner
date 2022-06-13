@@ -1,10 +1,28 @@
-/* General */
+/* General & body*/
 * {
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1050px;
+    margin-inline: auto;
+}
+
+/* Utility */
+.span-yellow-bg {
+    background-color: #ffff00;
+}
+
 /* Header */
-#main-header {
-    background-color: lightskyblue;
+.main-header {
+    background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
+    background-position: top center;
+    background-size: 35%;
+}
+
+.main-header__logo {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 5px;
 }
