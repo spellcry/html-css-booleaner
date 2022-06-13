@@ -1,0 +1,39 @@
+/* General & body*/
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ddd;
+}
+
+/* Header */
+.main-header {
+    padding: 60px;
+    background-color: lightgreen;
+    background-image: url(../img/pattern.png);
+}
+
+.main-header__logo {
+    width: 50%;
+}
+
+/* Main */
+.article {
+    max-width: 1090px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #58355E;
+    color: #fff;
+}
