@@ -19,7 +19,7 @@ p span {
 /* Header */
 .main-header {
     padding: 60px;
-    background-color: lightgreen;
+    background-color: #90ee90;
     background-image: url(../img/pattern.png);
     text-align: center;
 }
@@ -55,6 +55,11 @@ p span {
 
 .article__header__author {
     font-size: 18px;
+}
+
+.article__header__author a {
+    color: #60a560;
+    text-decoration: none;
 }
 
 .article__header__date {
